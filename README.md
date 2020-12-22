@@ -1,7 +1,7 @@
 Graph Convolutional Networks for SRM
 ======================================
 * This repository contains code using Pytorch Geometric to build a Graph Convolutional Network binary classifier on a dataset of 1000 randomly created graphs with a labeled encoding score.
-* adjs.npy contains the adjacency matrix for 1000 randomly created graphs. Encodings.csv contain the encoding score for the sparse and dense graph, and encodings(catx-orix)2.csv represent the score improvement for each sparse graph.
+* adjs.npy contains the adjacency matrix for 1000 randomly created graphs. Encodings.csv contains the encoding score for the sparse and dense graph, and encodings(catx-orix)2.csv represent the score improvement for each sparse graph.
 * srm-gcn.ipynb is a python notebook to preprocess our dataset and setup the GCN model. 
 
 Useful resources:
